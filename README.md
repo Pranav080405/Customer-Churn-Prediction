@@ -239,4 +239,12 @@ Through this project, the following concepts were implemented and understood:
 
 This project successfully demonstrates the use of Machine Learning techniques for predicting customer churn. The implemented pipeline can help businesses identify customers likely to discontinue services and take proactive retention measures.
 
+Designed and implemented a customer churn prediction system leveraging supervised machine learning techniques to identify customers likely to discontinue services.
+
+Applied feature preprocessing, label encoding, and oversampling techniques (SMOTE) to improve model robustness on imbalanced datasets.
+
+Compared multiple classification models including Decision Tree, Random Forest, and XGBoost using 5-fold cross-validation and performance metrics.
+
+Utilized Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, and Seaborn for data analysis, visualization, and predictive modeling.
+
 The project also highlights the importance of preprocessing, class balancing, and model evaluation in building reliable predictive systems.
