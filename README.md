@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on predicting customer churn using Machine Learning techniquesInitialized empty Git repository. Customer churn refers to customers who discontinue a company’s services. Predicting churn helps businesses take preventive actions to improve customer retention and reduce revenue loss.
+This project focuses on predicting customer churn using Machine Learning techniques. Customer churn refers to customers who discontinue a company’s services. Predicting churn helps businesses take preventive actions to improve customer retention and reduce revenue loss.
 
 The project implements a complete end-to-end Machine Learning pipeline including:
 
