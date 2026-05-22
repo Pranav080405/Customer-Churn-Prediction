@@ -23,6 +23,45 @@ The models used in this project are:
 
 Among all models, Random Forest achieved the best performance.
 
+# System Architecture
+
+```mermaid
+flowchart TD
+
+    A[Customer Churn Dataset] --> B[Data Preprocessing]
+
+    B --> B1[Handle Missing Values]
+    B --> B2[Convert TotalCharges to Numeric]
+    B --> B3[Label Encoding]
+
+    B3 --> C[Feature and Target Separation]
+
+    C --> D[Train-Test Split]
+
+    D --> E[SMOTE Oversampling]
+
+    E --> F1[Decision Tree Model]
+    E --> F2[Random Forest Model]
+    E --> F3[XGBoost Model]
+
+    F1 --> G[Model Evaluation]
+    F2 --> G
+    F3 --> G
+
+    G --> G1[Cross Validation]
+    G --> G2[Accuracy Score]
+    G --> G3[Confusion Matrix]
+    G --> G4[Classification Report]
+
+    G --> H[Best Model Selection]
+
+    H --> I[Random Forest Selected]
+
+    I --> J[Save Model using Pickle]
+
+    J --> K[Customer Churn Prediction System]
+```
+
 ---
 
 # Problem Statement
